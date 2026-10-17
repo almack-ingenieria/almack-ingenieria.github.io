@@ -230,3 +230,7 @@ p { margin: 0 0 1em; }
   html { scroll-behavior: auto; }
   .plan .reveal-path, .plan .pks { animation: none; }
 }
+
+/* Varios correos en la misma celda o bloque, uno debajo de otro */
+.contact-big + .contact-big { margin-top: 6px; }
+.cell a.cell-value + a.cell-value { margin-top: 2px; }
